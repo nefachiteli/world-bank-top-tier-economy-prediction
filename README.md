@@ -15,3 +15,16 @@ new scenario.
 ## Data
 [World Bank Databank](https://databank.worldbank.org/); GDP and
 population by country, 2000–2023 (Credit and Economic Data category).
+
+- `data/gdp.csv` - GDP (current US$) by country and year, World Bank
+  national accounts data.
+- `data/population.csv` - total population by country and year.
+- `data/country-codes.csv` - ISO country reference table used to attach
+  each country's continent/region and to filter out World Bank's
+  aggregate rows (e.g. "World", "Euro area"), keeping only real
+  countries.
+
+## Libraries Used
+- `pandas`, `numpy` - data handling
+- `matplotlib`, `seaborn` - visualization
+- `scikit-learn` - model training, encoding, and evaluation
