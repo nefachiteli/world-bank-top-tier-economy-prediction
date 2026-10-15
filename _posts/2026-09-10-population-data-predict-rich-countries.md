@@ -10,7 +10,7 @@ Every year, the World Bank publishes GDP and population figures for nearly 200 c
 
 My questions
 Do population size and growth trends carry a real signal about a country's economic tier, even without looking at GDP directly?
-When the model gets it wrong, does it get it wrong evenly across continents — or are some regions more likely to be overlooked?
+When the model gets it wrong, does it get it wrong evenly across continents or are some regions more likely to be overlooked?
 What I found
 
 Using 24 years of World Bank data (2000 - 2023) across roughly 200 countries, I trained a model to flag "top-tier" economies the top quartile globally by GDP per capita each year using only population, growth rates, continent, and year as inputs.
